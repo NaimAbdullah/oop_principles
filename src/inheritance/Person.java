@@ -37,7 +37,7 @@ public class Person {
         System.out.println("Person walks");
     }
 
-    public void eats(){
+    public void eat(){
         System.out.println("Person eats");
     }
 

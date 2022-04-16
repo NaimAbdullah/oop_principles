@@ -2,6 +2,19 @@ package inheritance;
 
 public class Person {
 
+    // Default constructor
+    public Person(){
+
+    }
+
+    // 4-args constructor
+    public Person(String fName, String lName, int age, String gender) {
+        this.fName = fName;
+        this.lName = lName;
+        this.age = age;
+        this.gender = gender;
+    }
+
     // Instance Variables
     public String fName;
     public String lName;

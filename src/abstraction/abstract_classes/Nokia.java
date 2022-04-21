@@ -1,6 +1,6 @@
 package abstraction.abstract_classes;
 
-public class Nokia extends Phone{
+public class Nokia extends Phone implements Camera, Bluetooth{
 
     public static final String OS = "Android";
 
@@ -30,5 +30,15 @@ public class Nokia extends Phone{
     @Override
     public boolean isConvertible() {
         return false;
+    }
+
+    @Override
+    public void takesPhoto() {
+        System.out.println("Nokia takes photos");
+    }
+
+    @Override
+    public void connectBluetooth() {
+        System.out.println("Nokia can connect to bluetooth");
     }
 }

@@ -20,6 +20,7 @@ public class TestAbstraction {
         Nokia n1 = new Nokia("Nokia", "Blue", 4, 100);
         Iphone i1 = new Iphone("Apple", "Silver", 128, 1000);
 
+
         List<Phone> phones = new ArrayList<>();
         phones.add(s1);
         phones.add(n1);
